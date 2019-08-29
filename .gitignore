@@ -1,1 +1,7 @@
-node_modules
+./node_modules
+/node_modules
+/node_modules/*
+node_modules/ms/
+node_modules/debug/
+node_modules/inherits/
+node_modules/safe-buffer/
