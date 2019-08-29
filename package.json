@@ -1,0 +1,7 @@
+{
+  "name": "GoBarber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rodolfo M F Abreu",
+  "license": "MIT"
+}
