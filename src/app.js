@@ -1,5 +1,6 @@
 const express = require("express");
 const routes = require("./router");
+const auth = require("./auth");
 
 class App {
   constructor() {
@@ -10,6 +11,7 @@ class App {
   }
 
   middlewares() {
+    this.server.use(auth.auth);
     this.server.use(express.json());
   }
 

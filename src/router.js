@@ -1,4 +1,6 @@
 const { Router } = require("express");
+const UserController = require("./app/controller/userController");
+const SessionController = require("./app/controller/sessionController");
 
 class Routes {
   constructor() {
@@ -7,9 +9,11 @@ class Routes {
   }
 
   routes() {
-    this.Routers.get("/", (req, res) => {
-      return res.json({ message: "consegui" });
-    });
+    this.Routers.post("/auth", SessionController.setToken);
+
+    this.Routers.use(SessionController.getToken);
+
+    this.Routers.get("/user", UserController.index);
   }
 }
 
