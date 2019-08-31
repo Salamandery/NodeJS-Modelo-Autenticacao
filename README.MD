@@ -2,9 +2,9 @@
 
 GOBARBER
 
--Rotas CRUD
--Autenticação de Rotas
--Validação de sessões JWT 
+- Rotas CRUD
+- Autenticação de Rotas
+- Validação de sessões JWT 
 
 
 Rodolfo M F Abreu
