@@ -1,3 +1,10 @@
 ### Estudo backend nodejs
 
-GOBARBER
+### GOBARBER
+
+- Rotas CRUD
+- Autenticação de Rotas
+- Validação de sessões JWT 
+
+
+Rodolfo M F Abreu
